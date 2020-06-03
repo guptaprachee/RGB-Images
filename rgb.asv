@@ -1,0 +1,9 @@
+i=imread('lena1.jpg');
+subplot(2,2,1)
+imshow(i);
+subplot(2,2,2)
+imshow(i(:,:,1));
+subplot(2,2,3)
+imshow(i(:,:,2));
+subplot(2,2,4)
+imshow(i(:,:,3));
